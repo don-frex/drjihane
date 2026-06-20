@@ -325,13 +325,14 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  z-index: 1100;
   animation: slideDown 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   
-  /* White to transparent liquid glass effect */
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.02) 100%) !important;
-  backdrop-filter: blur(28px) saturate(190%) !important;
-  -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  /* Semi-solid dark background with strong blur to avoid text bleed-through */
+  background: rgba(15, 20, 35, 0.95) !important;
+  backdrop-filter: blur(40px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(40px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
               var(--glass-shadow) !important;
 }
