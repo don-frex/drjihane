@@ -7,10 +7,10 @@
   border-radius: 20px !important;
   padding: 0 24px;
   
-  /* White to transparent liquid glass effect */
+  /* White to transparent liquid glass effect with backdrop blur */
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.01) 100%) !important;
-  backdrop-filter: blur(28px) saturate(190%) !important;
-  -webkit-backdrop-filter: blur(28px) saturate(190%) !important;
+  backdrop-filter: blur(32px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(190%) !important;
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
               var(--glass-shadow) !important;
@@ -72,6 +72,8 @@
   top: 10px;
   height: 64px;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.18) 0%, rgba(255, 255, 255, 0.03) 100%) !important;
+  backdrop-filter: blur(32px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(190%) !important;
   border-color: rgba(255, 255, 255, 0.25) !important;
   box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.45),
               var(--glass-shadow) !important;
