@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Home",
+    "gallery": "Visit",
+    "services": "Our Services",
+    "about": "About",
+    "booking": "Book Appointment",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Dr. Jihane El Masbahi",
+    "subtitle": "Medical Cabinet & Ultrasound",
+    "tagline": "Trusted medicine close to you. State-of-the-art diagnostics, personalized follow-ups, and quality care.",
+    "cta_booking": "Book Appointment",
+    "cta_gallery": "Tour the Clinic",
+    "scroll_tip": "Scroll down to enter the cabinet"
+  },
+  "ui": {
+    "toggle_3d": "3D Mode",
+    "toggle_2d": "Classic Mode",
+    "view_details": "Learn More",
+    "back": "Back",
+    "close": "Close",
+    "submitting": "Submitting...",
+    "success_title": "Appointment Requested!",
+    "success_message": "Thank you for your trust. We will contact you shortly to confirm your time slot.",
+    "morocco_compliance": "Compliant with national medical standards"
+  },
+  "services": {
+    "title": "Our Medical Services",
+    "subtitle": "A comprehensive range of care and diagnostic examinations",
+    "general": {
+      "title": "Family Medicine",
+      "desc": "Comprehensive medical consultations for adults, children, and infants, providing continuous healthcare for the entire family."
+    },
+    "ultrasound": {
+      "title": "Ultrasound Scans",
+      "desc": "High-precision general and obstetrical ultrasound scans for pregnancy tracking and other diagnostic assessments."
+    },
+    "preventative": {
+      "title": "Electrocardiography (ECG)",
+      "desc": "ECG tests to monitor heart rhythm and support early screening for cardiovascular conditions."
+    },
+    "nursing": {
+      "title": "Diabetes & Hypertension",
+      "desc": "Personalized management, lifestyle counseling, and continuous monitoring for diabetic and hypertensive patients."
+    }
+  },
+  "about": {
+    "title": "Dr. Jihane El Masbahi",
+    "subtitle": "General Practitioner & Family Doctor",
+    "p1": "Former physician at the Ibn Sina University Hospital Center (CHU) of Rabat and former physician at the Regional Hospital Center (CHR) of Guelmim, Dr. Jihane El Masbahi offers extensive clinical expertise in public health.",
+    "p2": "Dedicated to family-oriented healthcare, she welcomes you to her modern medical clinic equipped with state-of-the-art diagnostic tools for ultrasound scanning, electrocardiography (ECG), pregnancy tracking, and chronic disease management (diabetes and hypertension).",
+    "fact_experience": "Years of Experience",
+    "fact_patients": "Active Patients",
+    "fact_equipment": "State-of-the-art Tools"
+  },
+  "gallery": {
+    "title": "Virtual Clinic Gallery",
+    "subtitle": "Explore our modern medical spaces and clinical equipment",
+    "reception": {
+      "title": "Reception & Welcome Area",
+      "desc": "A spacious and comfortable waiting room with warm aesthetics designed to make your visit as pleasant as possible."
+    },
+    "consultation1": {
+      "title": "Diagnostic & Consultation Area",
+      "desc": "Equipped with modern medical examination devices and ultrasound scanning tools for immediate diagnostic feedback."
+    },
+    "consultation2": {
+      "title": "Doctor's Consultation Desk",
+      "desc": "A confidential and welcoming setting for discussing your health questions and history with the doctor."
+    },
+    "treatment": {
+      "title": "Treatment & Patient Monitoring Room",
+      "desc": "Dedicated to minor surgical procedures, IV administrations, ECG cardiac monitoring, and emergency triage."
+    },
+    "office": {
+      "title": "Secondary Clinical Desk",
+      "desc": "Analytical clinical workstation and administrative space for medical records, ensuring systematic and thorough health follow-ups."
+    }
+  },
+  "booking": {
+    "title": "Request an Appointment",
+    "subtitle": "Fill out this form and our team will get in touch with you shortly.",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email Address (optional)",
+    "service": "Requested Service",
+    "date": "Preferred Date",
+    "time_slot": "Preferred Time Window",
+    "notes": "Notes / Medical Reason (optional)",
+    "submit": "Submit Request",
+    "select_service": "Select a service",
+    "time_morning": "Morning (09:00 - 13:00)",
+    "time_afternoon": "Afternoon (14:30 - 18:30)",
+    "disclaimer": "Note: This request does not guarantee a booking. Our receptionist will call or message you to finalize and confirm your slot."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Clinic location, opening hours, and contact details",
+    "address_label": "Address",
+    "address_val": "Avenue Hassan II, Residence Chahid, Appt 4, 1st Floor, Guelmim, Morocco",
+    "phone_label": "Phone",
+    "phone_val": "05 28 77 04 04",
+    "email_label": "Email",
+    "email_val": "dr.jihane.elmasbahi@gmail.com",
+    "hours_label": "Opening Hours",
+    "hours_weekdays": "Monday - Friday: 09:00 - 13:00, 14:30 - 18:30",
+    "hours_saturday": "Saturday: 09:00 - 13:00",
+    "hours_sunday": "Sunday: Closed",
+    "emergency_label": "Emergencies",
+    "emergency_val": "In case of a medical emergency, call 150 or 15"
+  }
+}

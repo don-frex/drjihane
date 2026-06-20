@@ -1,0 +1,251 @@
+.footer-section {
+  width: 100%;
+  background-color: #060810;
+  border-top: 1px solid var(--color-border-glass);
+  padding: 80px 0 40px 0;
+  position: relative;
+  z-index: 10;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Clinic Summary Column */
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-title-footer {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-text-primary);
+  letter-spacing: -0.01em;
+}
+
+.clinic-bio {
+  font-size: 0.88rem;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.emergency-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.06);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.alert-icon {
+  color: #ef4444;
+  margin-top: 2px;
+  animation: pulse-warn 2s infinite;
+}
+
+.emergency-alert strong {
+  font-size: 0.85rem;
+  color: #f8fafc;
+  display: block;
+}
+
+.emergency-alert p {
+  font-size: 0.8rem;
+  color: #f87171;
+  margin-top: 2px;
+}
+
+/* Contact List Column */
+.column-title {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+.footer-contact-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer-contact-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.5;
+}
+
+.contact-icon {
+  color: var(--color-primary);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.footer-contact-list a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.footer-contact-list a:hover {
+  color: var(--color-primary-light);
+}
+
+/* Hours List Column */
+.hours-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hours-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+}
+
+.hours-icon {
+  color: var(--color-primary);
+  margin-top: 4px;
+}
+
+.day-name {
+  font-weight: 600;
+  color: var(--color-text-primary);
+  display: block;
+}
+
+.day-time {
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.closed-label {
+  color: #ef4444;
+  font-weight: 600;
+}
+
+/* Map Column & Styled Iframe */
+.map-wrapper {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--color-border-glass);
+}
+
+.google-map-iframe {
+  display: block;
+  /* Apply luxurious dark contrast filter to standard google map */
+  filter: grayscale(1) invert(0.9) contrast(1.2);
+  transition: var(--transition-smooth);
+}
+
+.map-wrapper:hover .google-map-iframe {
+  filter: grayscale(0.2) invert(0) contrast(1);
+}
+
+/* Footer Bottom Bar */
+.footer-bottom {
+  margin-top: 60px;
+  border-top: 1px solid var(--color-border-glass);
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.copyright-text {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-links a {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: var(--color-primary);
+}
+
+.separator {
+  color: var(--color-border-glass);
+  font-size: 0.8rem;
+}
+
+/* Keyframes */
+@keyframes pulse-warn {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+}
+
+/* Responsive grid breaks */
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-section {
+    padding: 60px 0 30px 0;
+  }
+  
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+}

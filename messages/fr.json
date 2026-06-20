@@ -1,0 +1,114 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "gallery": "Visite",
+    "services": "Nos Services",
+    "about": "À Propos",
+    "booking": "Prendre Rendez-vous",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Dr. Jihane El Masbahi",
+    "subtitle": "Cabinet Médical & Échographie",
+    "tagline": "Une médecine de confiance, proche de vous. Diagnostic de pointe, suivi personnalisé et soins de qualité.",
+    "cta_booking": "Prendre Rendez-vous",
+    "cta_gallery": "Visiter le Cabinet",
+    "scroll_tip": "Faites défiler pour entrer dans le cabinet"
+  },
+  "ui": {
+    "toggle_3d": "Mode 3D",
+    "toggle_2d": "Mode Classique",
+    "view_details": "En savoir plus",
+    "back": "Retour",
+    "close": "Fermer",
+    "submitting": "Envoi en cours...",
+    "success_title": "Rendez-vous Demandé !",
+    "success_message": "Merci pour votre confiance. Nous vous contacterons rapidement pour confirmer le créneau.",
+    "morocco_compliance": "Conforme aux normes médicales nationales"
+  },
+  "services": {
+    "title": "Nos Services Médicaux",
+    "subtitle": "Une gamme complète de soins et d'examens de diagnostic",
+    "general": {
+      "title": "Médecine de Famille",
+      "desc": "Consultations pour adultes, enfants et nourrissons, suivi médical continu et soins de santé primaires pour toute la famille."
+    },
+    "ultrasound": {
+      "title": "Échographie",
+      "desc": "Échographies générales et obstétricales de haute précision pour le suivi régulier de grossesse et autres diagnostics."
+    },
+    "preventative": {
+      "title": "Électrocardiographie (ECG)",
+      "desc": "Examens d'ECG pour l'analyse du rythme cardiaque et le dépistage précoce des pathologies cardiovasculaires."
+    },
+    "nursing": {
+      "title": "Suivi Diabète & HTA",
+      "desc": "Prise en charge personnalisée, conseils d'hygiène de vie et suivi régulier des patients diabétiques et hypertendus."
+    }
+  },
+  "about": {
+    "title": "Dr. Jihane El Masbahi",
+    "subtitle": "Médecin Généraliste & de Famille",
+    "p1": "Ancienne médecin au Centre Hospitalier Universitaire Ibn Sina de Rabat et ancienne médecin au Centre Hospitalier Régional de Guelmim, le Dr. Jihane El Masbahi dispose d'une solide expérience clinique dans le secteur hospitalier public.",
+    "p2": "Dédiée à offrir des soins de proximité, elle vous accueille dans son cabinet médical équipé de matériel moderne pour assurer des examens fiables d'échographie, d'électrocardiographie (ECG) et le suivi des maladies chroniques (Diabète, Hypertension Arterielle) ainsi que de la grossesse.",
+    "fact_experience": "Années d'expérience",
+    "fact_patients": "Patients suivis",
+    "fact_equipment": "Équipements de pointe"
+  },
+  "gallery": {
+    "title": "Visite Virtuelle du Cabinet",
+    "subtitle": "Explorez nos espaces et équipements médicaux modernes",
+    "reception": {
+      "title": "Accueil & Secrétariat",
+      "desc": "Une salle d'attente spacieuse et confortable à l'ambiance chaleureuse pour vous recevoir dans les meilleures conditions."
+    },
+    "consultation1": {
+      "title": "Espace Diagnostic & Consultation",
+      "desc": "Équipé de matériel d'auscultation moderne et d'outils d'échographie pour une évaluation médicale immédiate."
+    },
+    "consultation2": {
+      "title": "Bureau de Consultation",
+      "desc": "Un espace d'échange confidentiel et à l'écoute pour aborder votre santé sereinement avec le médecin."
+    },
+    "treatment": {
+      "title": "Salle de Soins & Monitoring",
+      "desc": "Dédiée aux actes de petite chirurgie, perfusion, surveillance cardiaque par ECG et soins d'urgence."
+    },
+    "office": {
+      "title": "Bureau Secondaire",
+      "desc": "Espace d'analyse clinique et de gestion administrative des dossiers de santé pour assurer votre suivi médical."
+    }
+  },
+  "booking": {
+    "title": "Demande de Rendez-vous",
+    "subtitle": "Remplissez ce formulaire et nous vous recontacterons au plus vite.",
+    "name": "Nom complet",
+    "phone": "Numéro de téléphone",
+    "email": "Adresse e-mail (optionnel)",
+    "service": "Service demandé",
+    "date": "Date souhaitée",
+    "time_slot": "Tranche horaire souhaitée",
+    "notes": "Remarques / Motifs (optionnel)",
+    "submit": "Envoyer la demande",
+    "select_service": "Sélectionnez un service",
+    "time_morning": "Matin (09:00 - 13:00)",
+    "time_afternoon": "Après-midi (14:30 - 18:30)",
+    "disclaimer": "Note: Cette demande ne constitue pas une confirmation finale. Notre secrétariat vous contactera pour valider le rendez-vous."
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Accès, horaires et coordonnées du cabinet",
+    "address_label": "Adresse",
+    "address_val": "Avenue Hassan II, résidence Chahid, Apprt 4, 1er étage, Guelmim, Maroc",
+    "phone_label": "Téléphone",
+    "phone_val": "05 28 77 04 04",
+    "email_label": "E-mail",
+    "email_val": "dr.jihane.elmasbahi@gmail.com",
+    "hours_label": "Horaires d'ouverture",
+    "hours_weekdays": "Lundi - Vendredi: 09:00 - 13:00, 14:30 - 18:30",
+    "hours_saturday": "Samedi: 09:00 - 13:00",
+    "hours_sunday": "Dimanche: Fermé",
+    "emergency_label": "Urgence",
+    "emergency_val": "En cas d'urgence vitale, composez le 150 ou le 15"
+  }
+}
