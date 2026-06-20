@@ -129,6 +129,9 @@ export const Navbar: React.FC<NavbarProps> = ({
         </div>
 
         <div className="nav-mobile-trigger">
+          <a href="tel:0528770404" className="mobile-header-call-btn" aria-label="Call clinic">
+            <Phone size={18} />
+          </a>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="hamburger-btn"

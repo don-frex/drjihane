@@ -55,32 +55,9 @@
 @media (max-width: 767px) {
   .navbar {
     width: 92%;
-    padding: 0 14px;
-    height: 60px;
   }
   .navbar.scrolled {
     width: 95%;
-    height: 56px;
-    top: 10px;
-  }
-  .logo-badge {
-    width: 32px;
-    height: 32px;
-    border-radius: 8px;
-    font-size: 0.95rem;
-  }
-  .nav-logo {
-    gap: 8px;
-  }
-  .logo-title {
-    font-size: 0.95rem;
-  }
-  .logo-subtitle {
-    font-size: 0.65rem;
-  }
-  .mobile-nav-panel {
-    padding: 16px;
-    top: calc(100% + 8px);
   }
 }
 
@@ -297,6 +274,28 @@
   display: none;
   align-items: center;
   gap: 8px;
+}
+
+.mobile-header-call-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-border-glass);
+  color: var(--color-text-primary);
+  transition: var(--transition-fast);
+  box-shadow: var(--specular-highlight);
+  text-decoration: none;
+}
+
+.mobile-header-call-btn:hover {
+  border-color: var(--color-teal);
+  color: var(--color-teal-light);
+  background: rgba(13, 148, 136, 0.05);
+  box-shadow: 0 0 10px rgba(13, 148, 136, 0.15);
 }
 
 .hamburger-btn {
@@ -544,5 +543,44 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Responsive Mobile Navbar Sizing & Overflow prevention */
+@media (max-width: 768px) {
+  .navbar {
+    width: 92% !important;
+    padding: 0 16px !important;
+    height: 60px !important;
+  }
+  
+  .navbar.scrolled {
+    height: 56px !important;
+    top: 10px !important;
+  }
+  
+  .logo-badge {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 1rem !important;
+    border-radius: 10px !important;
+  }
+  
+  .logo-title {
+    font-size: 0.95rem !important;
+  }
+
+  .nav-mobile-trigger {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-title {
+    font-size: 0.88rem !important;
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 }
