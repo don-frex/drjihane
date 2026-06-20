@@ -55,9 +55,32 @@
 @media (max-width: 767px) {
   .navbar {
     width: 92%;
+    padding: 0 14px;
+    height: 60px;
   }
   .navbar.scrolled {
     width: 95%;
+    height: 56px;
+    top: 10px;
+  }
+  .logo-badge {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+  }
+  .nav-logo {
+    gap: 8px;
+  }
+  .logo-title {
+    font-size: 0.95rem;
+  }
+  .logo-subtitle {
+    font-size: 0.65rem;
+  }
+  .mobile-nav-panel {
+    padding: 16px;
+    top: calc(100% + 8px);
   }
 }
 
