@@ -1,52 +1,34 @@
 .navbar {
   position: fixed;
   top: 20px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1000;
-  border-radius: 20px !important;
+  border-radius: 20px;
   padding: 0 24px;
   
-  /* Reset container background and filters to allow pseudo-element to render cleanly */
-  background: transparent !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  border: none !important;
-  box-shadow: none !important;
+  /* Frosted glass — applied directly, no pseudo-element needed */
+  background: rgba(255, 255, 255, 0.08);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  backdrop-filter: blur(24px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.25),
+              0 8px 32px -4px rgba(0, 0, 0, 0.4);
               
-  /* Transition for floating width expansion and height/padding/top */
+  /* Transition for floating width expansion */
   transition: width 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
               max-width 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
               top 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
               height 0.5s cubic-bezier(0.16, 1, 0.3, 1), 
-              padding 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+              padding 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.4s ease,
+              border-color 0.4s ease,
+              box-shadow 0.4s ease;
   
   /* Responsive Initial Widths */
   width: 92%;
   max-width: 1280px;
   height: 70px;
-}
-
-.navbar::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: 20px !important;
-  z-index: -1;
-  pointer-events: none;
-  
-  /* Frosted white glass style with strong backdrop blur */
-  background: rgba(255, 255, 255, 0.1) !important;
-  backdrop-filter: blur(32px) saturate(190%) !important;
-  -webkit-backdrop-filter: blur(32px) saturate(190%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.35),
-              var(--glass-shadow) !important;
-              
-  transition: background 0.5s ease-in-out, 
-              border-color 0.5s ease-in-out, 
-              box-shadow 0.5s ease-in-out;
 }
 
 @media (min-width: 1024px) {
@@ -57,7 +39,7 @@
   }
   .navbar.scrolled {
     width: 92%;
-    max-width: 1280px; /* max-w-7xl equivalent */
+    max-width: 1280px;
   }
 }
 
@@ -79,23 +61,19 @@
   }
 }
 
-.navbar:hover::before {
-  border-color: rgba(255, 255, 255, 0.35) !important;
-  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.55),
-              0 0 20px rgba(255, 255, 255, 0.03),
-              var(--glass-shadow) !important;
+.navbar:hover {
+  border-color: rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.35),
+              0 8px 32px -4px rgba(0, 0, 0, 0.45);
 }
 
 .navbar.scrolled {
   top: 10px;
   height: 64px;
-}
-
-.navbar.scrolled::before {
-  background: rgba(255, 255, 255, 0.18) !important;
-  border-color: rgba(255, 255, 255, 0.25) !important;
-  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.45),
-              var(--glass-shadow) !important;
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.22);
+  box-shadow: inset 0 1px 0 0 rgba(255, 255, 255, 0.3),
+              0 8px 32px -4px rgba(0, 0, 0, 0.5);
 }
 
 .nav-container {

@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
 
   return (
-    <nav className={`navbar glass-panel ${scrolled ? 'scrolled' : ''}`}>
+    <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => handleNavClick(0)}>
           <span className="logo-badge">JM</span>
